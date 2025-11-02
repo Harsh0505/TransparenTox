@@ -6,7 +6,7 @@ PY = sys.executable
 BASE = ["-m", "src.train", "--config", "configs/default.yaml",
         "--train_subset", "4000", "--eval_subset", "1000", "--test_subset", "1000"]
 
-models = ["distilbert-base-uncased"]
+models = ["distilbert-base-uncased"] # can add more models here
 lengths = [128]
 lrs = [2e-5, 3e-5, 5e-5]
 epochs = [1, 2]
