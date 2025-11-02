@@ -1,0 +1,10 @@
+Threshold used: 0.55
+
+              precision    recall  f1-score   support
+
+   non-toxic       0.93      0.97      0.95       910
+       toxic       0.54      0.31      0.39        90
+
+    accuracy                           0.91      1000
+   macro avg       0.74      0.64      0.67      1000
+weighted avg       0.90      0.91      0.90      1000
