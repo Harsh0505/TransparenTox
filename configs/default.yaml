@@ -1,0 +1,13 @@
+seed: 42
+model_name: distilbert-base-uncased
+max_length: 128
+train_batch_size: 16
+eval_batch_size: 32
+lr: 2e-5
+num_epochs: 1
+weight_decay: 0.01
+dataset: civil_comments
+label_col: toxic
+text_col: text
+output_dir: models/bert-base
+
