@@ -4,6 +4,7 @@ models/
 *.pyc
 .ipynb_checkpoints/
 .env
+experiments/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
