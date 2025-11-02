@@ -4,8 +4,7 @@ import json, pathlib
 EXPS = pathlib.Path("experiments")
 OUT  = pathlib.Path("app/best_model.json")
 
-# Prefer PR-AUC (best for imbalance), then F1 at chosen threshold, then ROC-AUC.
-PRIORITY = ["pr_auc_ap", "test_f1_at_best_t", "eval_f1", "roc_auc"]
+PRIORITY = ["eval_accuracy"]
 
 def score_of(m):
     for k in PRIORITY:
